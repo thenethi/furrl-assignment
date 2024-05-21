@@ -23,7 +23,7 @@
       3. Wishlist button would redirect to - Furrl Https://furrl.in/wishlist wishlist
       4. The Cart Button would redirect to Furrl Cart.
       
-    * Product list 
+    * Product list:
       1. Should have an infinite scroll feature where the page is rendered with the initial page(s) and then the next pages are fetched as we scroll through.
       2. Product clicks should take them to the corresponding product details page.
       3. The Share button should open a generic share component (which could be used from the web) that will contain the link to the product detail page.
