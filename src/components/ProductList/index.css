@@ -1,0 +1,24 @@
+.products-head{
+    font-weight: normal;
+    font-family: "Montserrat";
+    padding: 10px;
+}
+
+.product-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative; 
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px; 
+}
+
+@media screen and (min-width:768px){
+    .product-list-container{
+        justify-content: center;
+    }
+}

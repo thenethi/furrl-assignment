@@ -1,0 +1,36 @@
+.nav-container{
+    position: relative;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.nav-heading{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-icons-container{
+    display: flex;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin: 20px;
+    margin-right: 10px;
+}
+
+.nav-icon{
+    font-size: 32px;
+    color: black;
+}
+
+@media screen and (max-width:240px){
+    .nav-heading{
+        font-size: 16px;
+    }
+}

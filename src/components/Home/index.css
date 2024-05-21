@@ -1,0 +1,28 @@
+.hero-section{
+    background-image: url("https://res.cloudinary.com/de2lwnsu7/image/upload/v1716277425/beautiful-blonde-woman-holiday-spirit_ozevhv.jpg");
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-heading{
+    font-style: italic;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    .hero-section{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:490px){
+    .hero-section{
+        height: 250px;
+    }
+}
