@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Furrl Frontend Assignment
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+    To rebuild one of the pages of Furrl's mobile website - HomeHunts, host it somewhere and revert to the GitHub link and the hosted link.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Used ReactJS, React Router, CSS
 
-### `npm test`
+## Completion Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Functionality
 
-### `npm run build`
+#### Must Have
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    * Top Nav:
+      1. No back button.
+      2. No Search Button.
+      3. Wishlist button would redirect to - Furrl Https://furrl.in/wishlist wishlist
+      4. The Cart Button would redirect to Furrl Cart.
+      
+    * Product list:
+      1. Should have an infinite scroll feature where the page is rendered with the initial page(s) and then the next pages are fetched as we scroll through.
+      2. Product clicks should take them to the corresponding product details page.
+      3. The Share button should open a generic share component (which could be used from the web) that will contain the link to the product detail page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Guidelines to develop a project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Must Have
 
-### `npm run eject`
+    * Create a new public repository on GitHub for the assignment.
+    * Commit your code regularly and include clear commit messages.
+    * Include a README file explaining the project setup, usage instructions, and any additional information.
+    * Ensure the repository is well-organized and easy to navigate.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Submission Instructions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Must Have
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Functionality, Code Quality, User Interface, Error Handling, Code Correctness, UI look and feel
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Design files
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Used Design - https://web.furrl.in/vibeList?vibe=HomeHunts
 
-### Code Splitting
+### APIs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    API URL - https://api.furrl.in/vibeList?vibe=HomeHunts
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
